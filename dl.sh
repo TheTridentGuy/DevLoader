@@ -13,7 +13,7 @@ then
     echo "Unzipping VSCode..."
     unzip vscode.zip
     echo "Moving VSCode to your desktop..."
-    mv "Visual Studio Code" ~/Desktop
+    mv "Visual Studio Cod.app" ~/Desktop
     echo "Installing packages with pip3..."
     for var in "$@"
     do
